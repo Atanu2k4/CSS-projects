@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  background: 	#1e2124;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+h1:after{
+  content:"";
+  animation: 6s swap infinite;
+  background:#7289da;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left:5px;
+}
+
+@keyframes swap{
+  0%{
+    content: "Coding"
+  }
+  25%{
+    content: "BGMI";
+  }
+  50%{
+    content: "Chess";
+  }
+  75%{
+    content: "Typing..";
+  }
+  100%{
+    content: "Coding";
+  }
+}
