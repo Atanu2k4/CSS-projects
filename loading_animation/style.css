@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #000;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle{
+  background: #000;
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+  border-radius: 50px;
+  animation: pulse infinite alternate 0.7s;
+}
+
+@keyframes pulse{
+  from{
+    background: darkgray;
+  }
+  to{
+    background: rgb(23, 193, 173);
+    height: 23px;
+    width: 23px;
+  }
+}
