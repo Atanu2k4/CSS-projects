@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ring{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+}
+
+.ring1{
+  height: 200px;
+  width: 200px;
+  background: #282828;
+}
+
+.ring2{
+  height: 150px;
+  width: 150px;
+  background: #2892f9;
+}
+
+.ring3{
+  height: 100px;
+  width: 100px;
+  background: #fb2f27;
+}
+
+.ring-bullseye{
+  height: 50px;
+  width: 50px;
+  background: #fdfe29;
+}
