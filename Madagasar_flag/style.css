@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #000;
+}
+
+:root{
+  --white:#ffffff;
+  --red:#FC3e32;
+  --green:#007e39;
+  --flag-height:150px;
+}
+
+.container{
+  height: var(--flag-height);
+  width: calc(var(--flag-height)*3/2);
+  margin: 32px auto;
+  display: flex;
+}
+
+.box1{
+  background: var(--white);
+  width: calc(var(--flag-height)/2);
+}
+
+.box2{
+  background: var(--green);
+  height: calc(var(--flag-height)/2);
+  width: var(--flag-height);
+}
+
+.box3{
+  background: var(--red);
+  height: calc(var(--flag-height)/2);
+}
