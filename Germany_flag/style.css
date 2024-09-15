@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --black:#000000;
+  --red:#DE0002;
+  --yellow:#ffce00;
+  --flag-height:150px;
+}
+
+.container{
+  height: var(--flag-height);
+  width: calc(var(--flag-height)*5/3);
+  background:black;
+  margin: 30px auto;
+  display: grid;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+/* .box{
+  flex-grow: 1;
+} */
+
+.box1{
+  background: var(--black);
+}
+
+.box2{
+  background: var(--red);
+}
+
+.box3{
+  background: var(--yellow);
+}
