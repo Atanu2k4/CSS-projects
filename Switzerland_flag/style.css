@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --white:#fff;
+  --red:#ff0022;
+  --flag-hw:200px;
+}
+
+.container{
+  height: var(--flag-hw);
+  width: var(--flag-hw);
+  background: var(--red);
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.box1{
+  height: calc(var(--flag-hw)*3/16);
+  width: calc(var(--flag-hw)*5/8);
+  background: var(--white);
+}
+
+.box2{
+  height: calc(var(--flag-hw)*5/8);
+  width: calc(var(--flag-hw)*3/16);
+  background: var(--white);
+  position: absolute;
+}
