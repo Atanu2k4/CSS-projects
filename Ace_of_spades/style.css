@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card{
+  border: 1px solid black;
+  height: 200px;
+  width: calc(200px*2/3);
+  border-radius: 5px;
+  padding: 7px;
+  display: grid;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.buttom{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+  transform: rotateX(180deg);
+}
+
+.spades{
+  padding-left: 1px;
+}
